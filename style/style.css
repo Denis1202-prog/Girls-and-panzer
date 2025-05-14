@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    text-decoration: none;
+}
+
+.wrapper{
+    margin: 60px auto;
+    width: 1440px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    background-color: #53835D;
+    border-radius: 35px 35px 0 0;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 160px;
+    width: 1340px;
+}
+
+h1{
+    font-family: "Keania One", sans-serif;
+    font-weight: 400;
+    font-size: 90px;
+    border-radius: 15px;
+    padding: 10px;
+    width: 520px;
+    text-align: center;
+    background-color: #6DB488;
+    color: #E65296;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar{
+    padding: 20px 124px;
+    border-top: 3.5px solid #000;
+    width: 1340px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-radius: 35px;
+    padding: 5px 176px;
+    width: 1092px;
+    height: 80px;
+    background-color: #DBE8C8;
+}
+
+nav > a{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+}
+
+nav > a:hover{
+    color: #E65296;
+}
+
+nav > a:visited{
+    color: #62023C;
+}
+
+main{
+    background-color: #E7F4D2;
+    width: 1340px;
+}
+
+.main{
+    margin: 38.5px 100px;
+}
+
+.full-widht-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.full-widht-img > img{
+    border-radius: 35px;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 25px;
+    color: #1B1A1A;
+}
+
+.left-right{
+    margin-bottom: 40px;
+}
+
+.image-left{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    background-color: #E7D4C7;
+    padding: 20px;
+}
+
+.image-right{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    gap: 20px;
+    background-color: #E7D4C7;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-family: "Keania One", sans-serif;
+    color: #E65296;
+    background-color: #6DB488;
+    font-weight: 400;
+    font-size: 90px;    
+    width: 100%;
+    height: 160px;
+    border-radius: 40px;
+    text-align: center;
+    padding: 25px 124.5px;
+    margin: 20px;
+}
+
+ul{
+    width: 1140px;
+    margin: 0 100px;
+    padding: 0;
+}
+
+ul > li{
+    list-style: none;
+    font-weight: 700;
+    font-size: 50px;
+    color: #694E4E;
+    border-bottom: 3px solid #6DB488;
+    height: 95px;
+    display: flex;
+    align-items: center;
+}
+
+ul > li::before{
+    content: "●";
+    padding: 33px 20px 33px 10px;
+}
+
+ul > li:nth-child(even){
+    background-color: #E7D4C7;
+}
+
+ul > li:nth-child(odd){
+    background-color: #DBE8C8;
+}
+
+ul > li:last-child{
+    border-bottom: none;
+}
+
+footer{
+    width: 1340px;
+    height: 150px;
+}
+
+footer > h3{
+    font-family: "Keania One", sans-serif;
+    font-weight: 400;
+    font-size: 90px;
+    text-align: center;
+    color: #E65296;
+    background-color: #53835D;
+    padding: 20px 103.5px;
+    border-radius: 0 0 20px 20px;
+}
